@@ -2,7 +2,7 @@ from selene.support.shared import browser
 from selene import be, have
 import pytest
 
-@pytest.fixture()
+@pytest.fixture
 def open_browser():
     browser.open('https://google.com/ncr')
 
